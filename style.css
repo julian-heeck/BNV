@@ -182,8 +182,12 @@ pre code {
 }
 
 .hero-figure {
-  max-width: 560px;
+  max-width: 360px;
   margin-top: 34px;
+}
+
+.topology-figure {
+  max-width: 480px;
 }
 
 
