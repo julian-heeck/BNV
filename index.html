@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Code and supplementary material for Opening up baryon-number-violating operators by Julian Heeck, Diana Sokhashvili, and Anil Thapa.">
+  <title>Opening up baryon-number-violating operators</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <p class="eyebrow">Code & supplementary material</p>
+      <h1>Opening up baryon-number-violating operators</h1>
+      <p class="authors">Julian Heeck · Diana Sokhashvili · Anil Thapa</p>
+      <nav class="links" aria-label="Project links">
+        <a class="button primary" href="https://arxiv.org/abs/2603.17050">arXiv:2603.17050</a>
+        <a class="button" href="https://github.com/julian-heeck/BNV">GitHub repository</a>
+      </nav>
+      <p class="intro">
+        This page contains code and supplementary files for the article above. Large pre-generated
+        data files are currently hosted on Box; the source code and Mathematica notebooks will be
+        maintained in the GitHub repository.
+      </p>
+    </header>
+
+    <section>
+      <h2>Generating topologies</h2>
+      <p>
+        <a href="https://virginia.box.com/s/nz74bwx3x598f88h1uhxyhp7vywc2jv9"><strong>Generate_topologies.zip</strong></a>
+        (60 kB) contains a pedagogical Mathematica notebook and FeynArts model file to generate
+        tree-level topologies.
+      </p>
+      <p>
+        We provide all topologies up to mass dimension 15 used in the paper, as well as some
+        topologies at lower mass dimension that are not relevant for baryon number violation but
+        may be useful for other studies. Higher-dimensional topologies can be generated with the
+        Mathematica notebook or provided by the authors on request.
+      </p>
+
+      <div class="downloads">
+        <a class="download" href="https://virginia.box.com/s/5eqell2b1oe52rg0igieolc8is3wxdg1">
+          <span>Mathematica topology files</span>
+          <small>topology_files.zip · 10 MB (175 MB unzipped)</small>
+        </a>
+        <a class="download" href="https://virginia.box.com/s/wgkrllr4r0dp6t5lu7hesipcw8bw8a2k">
+          <span>Plain-text topology files</span>
+          <small>topology_text_files.zip · 1 MB (16 MB unzipped)</small>
+        </a>
+        <a class="download" href="https://virginia.box.com/s/0abgz014ilp5fn03yi71j9ucljpiaoye">
+          <span>Topology PDFs</span>
+          <small>topology_pdfs.zip · 32 MB</small>
+        </a>
+      </div>
+
+      <h3>File format</h3>
+      <p>
+        The Mathematica files are organized by the mass dimension of the associated non-derivative
+        operator and the number of external fermions and scalars. For example,
+        <code>dim7_4F_1S.wl</code> contains the two tree-level topologies for four external fermions
+        and one external scalar associated with a dimension-seven non-derivative operator.
+      </p>
+      <p>
+        Each entry consists of a Mathematica <code>Graph</code> object with labeled edges, a list of
+        external and internal particle types (<code>S</code> = external scalar/boson,
+        <code>F</code> = external fermion, <code>NB</code> = internal boson,
+        <code>NF</code> = internal fermion), and a list of vertices.
+      </p>
+      <p>The corresponding compact text representation is, for example:</p>
+      <pre><code>T[7][1]   {"S", "F", "F", "F", "F", "NB", "NB"}   {{2, 3, 6}, {1, 6, 7}, {4, 5, 7}}
+T[7][2]   {"S", "F", "F", "F", "F", "NF", "NB"}   {{1, 3, 6}, {2, 6, 7}, {4, 5, 7}}</code></pre>
+      <p>
+        The first column defines the topology names <code>T[mass dimension][unique integer]</code>;
+        the second and third columns match the corresponding entries in the Mathematica files.
+      </p>
+    </section>
+
+    <section>
+      <h2>Generating UV completions</h2>
+      <p>
+        The topologies can be used to UV-complete non-renormalizable effective-field-theory
+        operators. In the paper we apply them to non-derivative baryon-number-violating νSMEFT
+        operators up to mass dimension 15.
+      </p>
+
+      <div class="downloads">
+        <a class="download" href="https://virginia.box.com/s/uxgfzwdjxvq5bqca6c9lukcca22g004h">
+          <span>BNV operator input files</span>
+          <small>BNV_operators.zip · 40 kB (300 kB unzipped)</small>
+        </a>
+        <a class="download" href="https://virginia.box.com/s/v3swg6bbo2bfi9t5evmjp5kzoy59d5yd">
+          <span>UV-completion Mathematica notebook</span>
+          <small>Generate_UV_completions.zip · 191 kB (1 MB unzipped)</small>
+        </a>
+        <a class="download" href="https://virginia.box.com/s/1rhvbq4q97f31p9mgvr3iy7r59rp4ftw">
+          <span>UV-completion data: Mathematica .wl</span>
+          <small>Organized by mass dimension, B and L</small>
+        </a>
+        <a class="download" href="https://virginia.box.com/s/rh99luf1ttoviqv26s4i9mt1smxahzxv">
+          <span>UV-completion data: compact .dat</span>
+          <small>Stripped-down text representation</small>
+        </a>
+      </div>
+
+      <p>
+        The BNV operators were generated with
+        <a href="https://renatofonseca.net/sym2int">Sym2Int</a>. The UV-completion notebook generates
+        completions involving scalars, fermions, and vectors, and includes functions to check
+        equivalence of UV completions, calculate amplitudes or operator expansions, test Higgs
+        asymmetry, and draw the diagrams. It relies heavily on
+        <a href="https://renatofonseca.net/groupmath/">GroupMath</a>.
+      </p>
+      <p>
+        The <code>.wl</code> archives grow rapidly with mass dimension. For example,
+        <code>UV_Dim12_1B_1L.zip</code> is about 186 MB compressed and 2.9 GB uncompressed.
+      </p>
+
+      <h3>Example of the compact data format</h3>
+      <p>
+        For a dimension-eight example, <code>UV_Dim8_1B_1L_T3.dat</code> contains entries of the form
+      </p>
+      <pre class="wide"><code>O_{8,(1,1)}^1  F[8]F[8]S[4]  F[8]F[14]V[1]  F[6]F[8]V[1]  F[4]F[8]V[2]  F[1]F[8]V[2]  F[4]F[14]S[3]  F[1]F[6]S[3]
+O_{8,(1,1)}^2  F[8]F[14]V[1]  F[6]F[8]V[1]  F[3]F[8]S[4]  F[14]F[14]S[1]  F[6]F[6]S[1]  F[3]F[14]V[2]  F[3]F[6]V[2]</code></pre>
+      <p>
+        Particle names such as <code>F[8]</code> and <code>S[3]</code> follow the naming scheme of the
+        article and notebook. A trailing <code>c</code> denotes charge conjugation.
+      </p>
+    </section>
+
+    <section class="contact">
+      <h2>Contact</h2>
+      <p>
+        Questions, corrections, and comments are welcome.<br>
+        <a href="mailto:heeck@virginia.edu">heeck@virginia.edu</a>
+      </p>
+    </section>
+
+    <footer>
+      <p>Supplementary material for <em>Opening up baryon-number-violating operators</em>.</p>
+    </footer>
+  </main>
+</body>
+</html>
