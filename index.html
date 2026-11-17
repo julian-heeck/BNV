@@ -61,23 +61,25 @@
         The Mathematica files are organized by the mass dimension of the associated non-derivative
         operator and the number of external fermions and scalars. For example,
         <code>dim7_4F_1S.wl</code> contains the two tree-level topologies for four external fermions
-        and one external scalar associated with a dimension-seven non-derivative operator.
-      </p>
-      <p>
-        Each entry consists of a Mathematica <code>Graph</code> object with labeled edges, a list of
-        external and internal particle types (<code>S</code> = external scalar/boson,
-        <code>F</code> = external fermion, <code>NB</code> = internal boson,
-        <code>NF</code> = internal fermion), and a list of vertices.
+        and one external scalar associated with a dimension-seven non-derivative operator:
       </p>
       <figure class="project-figure topology-figure">
         <img src="images/dim7_topology_example.jpg" alt="Two dimension-seven topology examples shown in Mathematica format" loading="lazy">
       </figure>
-      <p>The corresponding compact text representation is, for example:</p>
+      <p>
+        Each entry consists of a Mathematica <code>Graph</code> object with labeled edges, a list of
+        external and internal particle types (<code>S</code> = external scalar/boson,
+        <code>F</code> = external fermion, <code>NB</code> = internal boson,
+        <code>NF</code> = internal fermion), and a list of vertices. E.g. in the first example, particles 2, 3, and 6 (as labeled in the graph) meet at one vertex, particles 1, 6, and 7 at another, and particles 4, 5, and 7 at the last vertex. Our topology format is redundant, the graph contains the same information as the last two entries together, so we also provide topology information in the form of plain text files, which can be used without Mathematica and also contain a numbering of the topologies. The dimension-seven example from above then takes the compact form
+      </p>
       <pre><code>T[7][1]   {"S", "F", "F", "F", "F", "NB", "NB"}   {{2, 3, 6}, {1, 6, 7}, {4, 5, 7}}
 T[7][2]   {"S", "F", "F", "F", "F", "NF", "NB"}   {{1, 3, 6}, {2, 6, 7}, {4, 5, 7}}</code></pre>
       <p>
         The first column defines the topology names <code>T[mass dimension][unique integer]</code>;
         the second and third columns match the corresponding entries in the Mathematica files.
+      </p>
+      <p>
+        Finally, we also provide pdf files of all topologies used in the article.
       </p>
     </section>
 
