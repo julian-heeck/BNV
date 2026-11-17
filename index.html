@@ -112,31 +112,26 @@ T[7][2]   {"S", "F", "F", "F", "F", "NF", "NB"}   {{1, 3, 6}, {2, 6, 7}, {4, 5, 
 
       <p>
         The BNV operators were generated with
-        <a href="https://renatofonseca.net/sym2int">Sym2Int</a>. The UV-completion notebook generates
-        completions involving scalars, fermions, and vectors, and includes functions to check
+        <a href="https://renatofonseca.net/sym2int">Sym2Int</a>. The pedagogical UV-completion notebook generates
+        completions involving scalars, fermions, and vectors for non-derivative operators with tree-level topologies, and includes functions to check
         equivalence of UV completions, calculate amplitudes or operator expansions, test Higgs
         asymmetry, and draw the diagrams. It relies heavily on
-        <a href="https://renatofonseca.net/groupmath/">GroupMath</a>.
+        <a href="https://renatofonseca.net/groupmath/">GroupMath</a>. It also contains functions that aid with the import of our BNV UV completions.
       </p>
       <p>
         The <code>.wl</code> archives grow rapidly with mass dimension. For example,
         <code>UV_Dim12_1B_1L.zip</code> is about 186 MB compressed and 2.9 GB uncompressed.
       </p>
-
+      <p>
+For example, the zip file <code>UV_Dim8_1B_1L.zip</code> contains all UV completions for d=8 operators with B=1 and L=1, sorted by topology and operator. Inside, one can find <code>UV_Dim8_1B_1L_T3_O1.wl</code>, i.e. topology T3 and operator 1, which takes the form
       <figure class="project-figure">
         <img src="images/uvexample.jpg" alt="Dimension-eight UV-completion example showing a topology and allowed particle assignments" loading="lazy">
       </figure>
-
-      <h3>Example of the compact data format</h3>
-      <p>
-        For a dimension-eight example, <code>UV_Dim8_1B_1L_T3.dat</code> contains entries of the form
+The first entry is the topology, the second a list of all possible inequivalent ways of distributing the external SM particles HHddQL around the diagram with consistent quantum numbers for the heavy internal fields. Particle names such as <code>F[8]</code> and <code>S[3]</code> follow the naming scheme of the
+        article and notebook. A trailing <code>c</code> denotes charge conjugation. The same dimension-8 UV completions in <code>.dat</code> format only list which internal particles are in the diagram, e.g. in <code>UV_Dim8_1B_1L_T3.dat</code> we find
       </p>
       <pre class="wide"><code>O_{8,(1,1)}^1  F[8]F[8]S[4]  F[8]F[14]V[1]  F[6]F[8]V[1]  F[4]F[8]V[2]  F[1]F[8]V[2]  F[4]F[14]S[3]  F[1]F[6]S[3]
 O_{8,(1,1)}^2  F[8]F[14]V[1]  F[6]F[8]V[1]  F[3]F[8]S[4]  F[14]F[14]S[1]  F[6]F[6]S[1]  F[3]F[14]V[2]  F[3]F[6]V[2]</code></pre>
-      <p>
-        Particle names such as <code>F[8]</code> and <code>S[3]</code> follow the naming scheme of the
-        article and notebook. A trailing <code>c</code> denotes charge conjugation.
-      </p>
     </section>
 
     <section class="contact">
