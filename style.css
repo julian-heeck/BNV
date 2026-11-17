@@ -167,6 +167,26 @@ pre code {
   font-size: inherit;
 }
 
+.project-figure {
+  max-width: 680px;
+  margin: 30px auto;
+}
+
+.project-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.hero-figure {
+  max-width: 560px;
+  margin-top: 34px;
+}
+
+
 .contact { border-bottom: 0; }
 
 footer {
