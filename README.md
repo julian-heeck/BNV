@@ -1,4 +1,4 @@
-# Baryon-number-violating operators
+# Opening up baryon-number-violating operators
 
 Code, topology files, and supplementary material for a series of projects on tree-level UV completions of baryon-number-violating operators in the Standard Model effective field theory, including right-handed neutrinos.
 
