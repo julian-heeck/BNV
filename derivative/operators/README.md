@@ -35,11 +35,11 @@ Each `.wl` file contains a Wolfram Language list specifying the field and deriva
 
 ```Mathematica
 {
- {"\[ScriptCapitalD]", "\[ScriptCapitalD]", "\[ScriptCapitalD]",
-  "\[ScriptCapitalD]", "Hc", "dR", "dR", "Q", "ec"},
+ {"D", "D", "D",
+  "D", "Hc", "dR", "dR", "Q", "ec"},
 
- {"\[ScriptCapitalD]", "\[ScriptCapitalD]", "\[ScriptCapitalD]",
-  "\[ScriptCapitalD]", "Hc", "dR", "Q", "Q", "Lc"},
+ {"D", "D", "D",
+  "D", "Hc", "dR", "Q", "Q", "Lc"},
 
  ...
 }
@@ -50,12 +50,12 @@ Each inner list specifies the **field and derivative content of one operator cla
 The entries
 
 ```Mathematica
-"\[ScriptCapitalD]"
+"D"
 ```
 
 represent derivatives \(\mathcal D\). Repeated entries therefore specify the total number of derivatives in the operator class.
 
-These lists specify the field and derivative content only. In particular, they do not by themselves specify the individual Lorentz, gauge-index, flavor, or derivative contractions of the corresponding operator basis, nor how the derivatives are distributed among the fields.
+These lists specify the field and derivative content only. In particular, they do not by themselves specify the individual Lorentz, gauge-index, flavor, or derivative contractions of the corresponding operator basis, nor how the derivatives are distributed among the fields. Field strength tensors are also not listed since they can be viewed as antisymmetric combinations of covariant derivatives, as explained in the article.
 
 ## Field conventions
 
@@ -77,7 +77,7 @@ The field labels are
 | `ec` | charge conjugate of \(e_R\), i.e. the left-handed anti-electron field |
 | `NR` | right-handed neutrino \(N_R\) |
 | `Nc` | charge conjugate of \(N_R\), with opposite chirality |
-| `D` | derivative \(\mathcal D\); stored in the `.wl` files as `"\[ScriptCapitalD]"` |
+| `D` | derivative \(\mathcal D\) |
 
 Thus the suffix `c` denotes **charge conjugation**, rather than Hermitian conjugation. For fermions, charge conjugation reverses the gauge quantum numbers and flips chirality.
 
