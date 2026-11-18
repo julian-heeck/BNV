@@ -207,16 +207,16 @@ pre code {
 }
 
 .hero-figure {
-  max-width: 440px;
+  max-width: 560px;
   margin-top: 34px;
 }
 
 .topology-figure {
-  max-width: 560px;
+  max-width: 650px;
 }
 
 .uv-figure {
-  max-width: 760px;
+  max-width: 780px;
 }
 
 .contact { border-bottom: 0; }
