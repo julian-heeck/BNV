@@ -30,7 +30,9 @@ body {
   border-bottom: 1px solid var(--line);
 }
 
-.eyebrow {
+.eyebrow,
+.section-kicker,
+.paper-label {
   margin: 0 0 8px;
   color: var(--muted);
   font-size: 0.78rem;
@@ -61,16 +63,39 @@ h3 {
   font-size: 1.25rem;
 }
 
-.authors {
-  margin: 18px 0 24px;
+.intro {
+  max-width: 790px;
+  margin: 22px 0 0;
   color: var(--muted);
-  font-size: 1.05rem;
 }
 
-.intro {
-  max-width: 760px;
-  margin: 28px 0 0;
+.paper-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin: 30px 0 20px;
+}
+
+.paper-card {
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  background: var(--soft);
+}
+
+.paper-title {
+  margin: 0 0 10px;
+  font-size: 1.28rem;
+}
+
+.paper-authors,
+.section-authors {
+  margin: 0 0 16px;
   color: var(--muted);
+}
+
+.section-authors {
+  margin-top: -12px;
 }
 
 .links {
@@ -89,7 +114,7 @@ h3 {
   text-decoration: none;
 }
 
-.button:hover { background: var(--soft); }
+.button:hover { background: #fff; }
 
 .button.primary {
   border-color: #1f6feb;
@@ -168,7 +193,7 @@ pre code {
 }
 
 .project-figure {
-  max-width: 680px;
+  max-width: 760px;
   margin: 30px auto;
 }
 
@@ -182,14 +207,17 @@ pre code {
 }
 
 .hero-figure {
-  max-width: 360px;
+  max-width: 440px;
   margin-top: 34px;
 }
 
 .topology-figure {
-  max-width: 480px;
+  max-width: 560px;
 }
 
+.uv-figure {
+  max-width: 760px;
+}
 
 .contact { border-bottom: 0; }
 
@@ -199,10 +227,10 @@ footer {
   font-size: 0.9rem;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 700px) {
   body { font-size: 16px; }
   .page { width: min(calc(100% - 28px), var(--max)); }
   .hero { padding-top: 48px; }
   section { padding: 40px 0; }
-  .downloads { grid-template-columns: 1fr; }
+  .paper-grid, .downloads { grid-template-columns: 1fr; }
 }
