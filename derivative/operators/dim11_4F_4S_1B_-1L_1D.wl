@@ -1,0 +1,14 @@
+(* Created with the Wolfram Language : www.wolfram.com *)
+{{"\[ScriptCapitalD]", "H", "H", "Hc", "Hc", "dR", "dR", "dR", "ec"}, 
+ {"\[ScriptCapitalD]", "H", "Hc", "Hc", "Hc", "dR", "Q", "Q", "ec"}, 
+ {"\[ScriptCapitalD]", "H", "Hc", "Hc", "Hc", "dR", "dR", "uR", "ec"}, 
+ {"\[ScriptCapitalD]", "H", "Hc", "Hc", "Hc", "Q", "Q", "Q", "Lc"}, 
+ {"\[ScriptCapitalD]", "H", "Hc", "Hc", "Hc", "dR", "uR", "Q", "Lc"}, 
+ {"\[ScriptCapitalD]", "H", "H", "Hc", "Hc", "dR", "dR", "Q", "Lc"}, 
+ {"\[ScriptCapitalD]", "Hc", "Hc", "Hc", "Hc", "uR", "Q", "Q", "ec"}, 
+ {"\[ScriptCapitalD]", "Hc", "Hc", "Hc", "Hc", "uR", "uR", "Q", "Lc"}, 
+ {"\[ScriptCapitalD]", "H", "Hc", "Hc", "Hc", "uR", "Q", "Q", "Nc"}, 
+ {"\[ScriptCapitalD]", "H", "Hc", "Hc", "Hc", "dR", "uR", "uR", "Nc"}, 
+ {"\[ScriptCapitalD]", "H", "H", "Hc", "Hc", "dR", "Q", "Q", "Nc"}, 
+ {"\[ScriptCapitalD]", "H", "H", "Hc", "Hc", "dR", "dR", "uR", "Nc"}, 
+ {"\[ScriptCapitalD]", "H", "H", "H", "Hc", "dR", "dR", "dR", "Nc"}}

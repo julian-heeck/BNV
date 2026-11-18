@@ -1,0 +1,15 @@
+(* Created with the Wolfram Language : www.wolfram.com *)
+{{"\[ScriptCapitalD]", "\[ScriptCapitalD]", "\[ScriptCapitalD]", 
+  "\[ScriptCapitalD]", "Hc", "dR", "dR", "Q", "ec"}, 
+ {"\[ScriptCapitalD]", "\[ScriptCapitalD]", "\[ScriptCapitalD]", 
+  "\[ScriptCapitalD]", "Hc", "dR", "Q", "Q", "Lc"}, 
+ {"\[ScriptCapitalD]", "\[ScriptCapitalD]", "\[ScriptCapitalD]", 
+  "\[ScriptCapitalD]", "Hc", "dR", "dR", "uR", "Lc"}, 
+ {"\[ScriptCapitalD]", "\[ScriptCapitalD]", "\[ScriptCapitalD]", 
+  "\[ScriptCapitalD]", "H", "dR", "dR", "dR", "Lc"}, 
+ {"\[ScriptCapitalD]", "\[ScriptCapitalD]", "\[ScriptCapitalD]", 
+  "\[ScriptCapitalD]", "H", "dR", "dR", "Q", "Nc"}, 
+ {"\[ScriptCapitalD]", "\[ScriptCapitalD]", "\[ScriptCapitalD]", 
+  "\[ScriptCapitalD]", "Hc", "Q", "Q", "Q", "Nc"}, 
+ {"\[ScriptCapitalD]", "\[ScriptCapitalD]", "\[ScriptCapitalD]", 
+  "\[ScriptCapitalD]", "Hc", "dR", "uR", "Q", "Nc"}}
