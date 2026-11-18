@@ -1,0 +1,11 @@
+(* Created with the Wolfram Language : www.wolfram.com *)
+{{"Hc", "dR", "dR", "dR", "Lc", "Lc", "Lc", "Nc", "Nc"}, 
+ {"Hc", "dR", "dR", "dR", "Lc", "ec", "Nc", "Nc", "Nc"}, 
+ {"Hc", "dR", "dR", "Q", "Lc", "Lc", "Nc", "Nc", "Nc"}, 
+ {"Hc", "dR", "dR", "uR", "Lc", "Nc", "Nc", "Nc", "Nc"}, 
+ {"H", "dR", "dR", "dR", "Lc", "Nc", "Nc", "Nc", "Nc"}, 
+ {"Hc", "dR", "dR", "Q", "ec", "Nc", "Nc", "Nc", "Nc"}, 
+ {"Hc", "dR", "Q", "Q", "Lc", "Nc", "Nc", "Nc", "Nc"}, 
+ {"H", "dR", "dR", "Q", "Nc", "Nc", "Nc", "Nc", "Nc"}, 
+ {"Hc", "dR", "uR", "Q", "Nc", "Nc", "Nc", "Nc", "Nc"}, 
+ {"Hc", "Q", "Q", "Q", "Nc", "Nc", "Nc", "Nc", "Nc"}}
