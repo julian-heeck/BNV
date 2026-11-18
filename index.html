@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Code, topology files, and UV-completion data for the baryon-number-violating operator projects by Julian Heeck and collaborators.">
   <title>Baryon-number-violating operators: code & data</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=3">
 </head>
 <body>
   <main class="page">
@@ -118,31 +118,39 @@ T[7][2]   {"S", "F", "F", "F", "F", "NF", "NB"}   {{1, 3, 6}, {2, 6, 7}, {4, 5, 
       </p>
 
       <div class="downloads">
-        <a class="download" href="https://virginia.box.com/s/uxgfzwdjxvq5bqca6c9lukcca22g004h">
-          <span>BNV operator input files</span>
-          <small>BNV_operators.zip · 40 kB (300 kB unzipped)</small>
+        <a class="download" href="https://github.com/julian-heeck/BNV/tree/main/nonderivative/operators">
+          <span>Non-derivative BNV operator lists</span>
+          <small>Wolfram Language .wl files through mass dimension 15 · GitHub</small>
         </a>
-        <a class="download" href="https://virginia.box.com/s/v3swg6bbo2bfi9t5evmjp5kzoy59d5yd">
+        <a class="download" href="https://github.com/julian-heeck/BNV/blob/main/nonderivative/Generate_UV_completions.nb">
           <span>UV-completion Mathematica notebook</span>
-          <small>Generate_UV_completions.zip · 191 kB (1 MB unzipped)</small>
+          <small>Generate_UV_completions.nb · version-controlled on GitHub</small>
+        </a>
+        <a class="download" href="https://github.com/julian-heeck/BNV/tree/main/nonderivative/newparticles">
+          <span>New-particle representation lists</span>
+          <small>Fermions, scalars, and vectors by first appearance dimension · GitHub</small>
         </a>
         <a class="download" href="https://virginia.box.com/s/1rhvbq4q97f31p9mgvr3iy7r59rp4ftw">
           <span>UV-completion data: Mathematica .wl</span>
-          <small>Organized by mass dimension, B and L</small>
+          <small>Organized by mass dimension, B and L · Box</small>
         </a>
         <a class="download" href="https://virginia.box.com/s/rh99luf1ttoviqv26s4i9mt1smxahzxv">
           <span>UV-completion data: compact .dat</span>
-          <small>Stripped-down text representation</small>
+          <small>Stripped-down text representation · Box</small>
         </a>
       </div>
 
       <p>
-        The BNV operators were generated with
-        <a href="https://renatofonseca.net/sym2int">Sym2Int</a>. The pedagogical UV-completion notebook generates
-        completions involving scalars, fermions, and vectors for non-derivative operators with tree-level topologies, and includes functions to check
-        equivalence of UV completions, calculate amplitudes or operator expansions, test Higgs
-        asymmetry, and draw the diagrams. It relies heavily on
-        <a href="https://renatofonseca.net/groupmath/">GroupMath</a>. It also contains functions that aid with the import of our BNV UV completions.
+        The BNV operator lists were generated with
+        <a href="https://renatofonseca.net/sym2int">Sym2Int</a> and are now maintained directly in the
+        <a href="https://github.com/julian-heeck/BNV/tree/main/nonderivative/operators">GitHub repository</a>.
+        The pedagogical UV-completion notebook generates completions involving scalars, fermions, and vectors
+        for non-derivative operators with tree-level topologies, and includes functions to check equivalence of
+        UV completions, calculate amplitudes or operator expansions, test Higgs asymmetry, and draw the diagrams.
+        It relies heavily on <a href="https://renatofonseca.net/groupmath/">GroupMath</a>. The repository also
+        contains lists of <a href="https://github.com/julian-heeck/BNV/tree/main/nonderivative/newparticles">new
+        particle representations</a> organized by the lowest operator dimension at which they first appear in a
+        non-derivative BNV tree-level UV completion.
       </p>
       <p>
         The <code>.wl</code> archives grow rapidly with mass dimension. For example,
