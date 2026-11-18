@@ -36,16 +36,14 @@ Each `.wl` file contains a Wolfram Language list specifying the field and deriva
 ```Mathematica
 {
  {"D", "D", "D", "D", "Hc", "dR", "dR", "Q", "ec"},
-
  {"D", "D", "D", "D", "Hc", "dR", "Q", "Q", "Lc"},
-
  ...
 }
 ```
 
 Each inner list specifies the **field and derivative content of one operator class**.
 
-These lists specify the field and derivative content only. In particular, they do not by themselves specify the individual Lorentz, gauge-index, flavor, or derivative contractions of the corresponding operator basis, nor how the derivatives are distributed among the fields. Field strength tensors are also not listed since they can be viewed as antisymmetric combinations of covariant derivatives, as explained in the article.
+These lists, generated using Sym2Int, specify the field and derivative content only. In particular, they do not by themselves specify the individual Lorentz, gauge-index, flavor, or derivative contractions of the corresponding operator basis, nor how the derivatives are distributed among the fields. Field strength tensors are also not listed since they can be viewed as antisymmetric combinations of covariant derivatives, as explained in the article.
 
 ## Field conventions
 
