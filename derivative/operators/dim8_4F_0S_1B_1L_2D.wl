@@ -1,7 +1,4 @@
 (* Created with the Wolfram Language : www.wolfram.com *)
-{{"\[ScriptCapitalD]", "\[ScriptCapitalD]", "Q", "Q", "Q", "L"}, 
- {"\[ScriptCapitalD]", "\[ScriptCapitalD]", "dR", "uR", "Q", "L"}, 
- {"\[ScriptCapitalD]", "\[ScriptCapitalD]", "uR", "Q", "Q", "eR"}, 
- {"\[ScriptCapitalD]", "\[ScriptCapitalD]", "dR", "uR", "uR", "eR"}, 
- {"\[ScriptCapitalD]", "\[ScriptCapitalD]", "dR", "Q", "Q", "NR"}, 
- {"\[ScriptCapitalD]", "\[ScriptCapitalD]", "dR", "dR", "uR", "NR"}}
+{{"D", "D", "Q", "Q", "Q", "L"}, {"D", "D", "dR", "uR", "Q", "L"}, 
+ {"D", "D", "uR", "Q", "Q", "eR"}, {"D", "D", "dR", "uR", "uR", "eR"}, 
+ {"D", "D", "dR", "Q", "Q", "NR"}, {"D", "D", "dR", "dR", "uR", "NR"}}

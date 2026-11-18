@@ -1,5 +1,3 @@
 (* Created with the Wolfram Language : www.wolfram.com *)
-{{"\[ScriptCapitalD]", "dR", "dR", "dR", "ec"}, 
- {"\[ScriptCapitalD]", "dR", "dR", "Q", "Lc"}, 
- {"\[ScriptCapitalD]", "dR", "Q", "Q", "Nc"}, {"\[ScriptCapitalD]", "dR", 
-  "dR", "uR", "Nc"}}
+{{"D", "dR", "dR", "dR", "ec"}, {"D", "dR", "dR", "Q", "Lc"}, 
+ {"D", "dR", "Q", "Q", "Nc"}, {"D", "dR", "dR", "uR", "Nc"}}
