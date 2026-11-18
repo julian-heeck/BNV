@@ -14,11 +14,7 @@ NewScalars_DimX.wl
 NewVectors_DimX.wl
 ```
 
-with
-
-```text
-X = 6, ..., 15.
-```
+with `X = 6, ..., 15`.
 
 Here `DimX` denotes the **lowest mass dimension of a non-derivative BNV operator whose tree-level UV completion contains that particle representation**.
 
@@ -65,22 +61,20 @@ for scalars and vectors.
 
 The first entry specifies the particle type:
 
-- `F` — fermion,
-- `S` — scalar,
-- `V` — vector.
+- `F` — fermion
+- `S` — scalar
+- `V` — vector
 
 The remaining entries specify the representation under
 
-\[
-SU(3)_C \times SU(2)_L \times U(1)_Y.
-\]
+**SU(3)C × SU(2)L × U(1)Y**.
 
 The non-Abelian representations are given by Dynkin labels:
 
-- `{a,b}` for \(SU(3)_C\),
-- `{n}` for \(SU(2)_L\),
+- `{a,b}` for SU(3)C
+- `{n}` for SU(2)L
 
-while the final number is the hypercharge \(Y\).
+while the final number is the hypercharge `Y`.
 
 For example,
 
@@ -90,11 +84,21 @@ For example,
 
 denotes a fermion transforming as
 
-\[
-(\mathbf 3,\mathbf 2,1/6)
-\]
+**(3, 2, 1/6)**
 
-under \(SU(3)_C\times SU(2)_L\times U(1)_Y\).
+under SU(3)C × SU(2)L × U(1)Y.
+
+Some useful examples of the Dynkin-label notation are:
+
+| Dynkin label | Representation |
+|---|---|
+| SU(3): `{0,0}` | 1 |
+| SU(3): `{1,0}` | 3 |
+| SU(3): `{0,1}` | anti-3 |
+| SU(3): `{1,1}` | 8 |
+| SU(2): `{0}` | 1 |
+| SU(2): `{1}` | 2 |
+| SU(2): `{2}` | 3 |
 
 ## Interpretation
 
@@ -112,17 +116,7 @@ The lists therefore provide a compact way to identify when increasingly exotic s
 
 ## Scope
 
-The files cover non-derivative baryon-number-violating operators from
-
-\[
-d=6
-\]
-
-through
-
-\[
-d=15.
-\]
+The files cover non-derivative baryon-number-violating operators from dimension 6 through dimension 15.
 
 They are associated with the non-derivative analysis described in
 
