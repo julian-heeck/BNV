@@ -1,9 +1,8 @@
 (* Patched for use with FeynCalc *)
 (*
-	Toy.mod
-		a toy model with a fermion, a vector boson, and
-		a scalar, with fictitious f-f-v and f-f-s couplings
-		last modified 26 Oct 07 th
+	FeynArtsToyModel.mod
+		a toy model with a fermion and
+		a scalar, with f-f-s, s-s-s, and s-s-s-s couplings
 *)
 
 
@@ -13,14 +12,7 @@ M$ClassesDescription = {
 	Mass -> mf,
 	PropagatorLabel -> "",
 	PropagatorType -> Straight,
-	PropagatorArrow -> None },
-  V[1] == {
-	SelfConjugate -> True,
-	Mass -> mv,
-	PropagatorLabel -> "v",
-	PropagatorType -> Sine,
-	PropagatorArrow -> None },
-	
+	PropagatorArrow -> None },	
   S[1] == {
 	SelfConjugate -> True,
 	Mass -> ms,
