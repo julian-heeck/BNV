@@ -41,9 +41,6 @@ Each `.wl` file contains a Wolfram Language list specifying the field and deriva
  {"\[ScriptCapitalD]", "\[ScriptCapitalD]", "\[ScriptCapitalD]",
   "\[ScriptCapitalD]", "Hc", "dR", "Q", "Q", "Lc"},
 
- {"\[ScriptCapitalD]", "\[ScriptCapitalD]", "\[ScriptCapitalD]",
-  "\[ScriptCapitalD]", "Hc", "dR", "dR", "uR", "Lc"},
-
  ...
 }
 ```
@@ -80,7 +77,7 @@ The field labels are
 | `ec` | charge conjugate of \(e_R\), i.e. the left-handed anti-electron field |
 | `NR` | right-handed neutrino \(N_R\) |
 | `Nc` | charge conjugate of \(N_R\), with opposite chirality |
-| `\[ScriptCapitalD]` | derivative \(\mathcal D\) |
+| `D` | derivative \(\mathcal D\); stored in the `.wl` files as `"\[ScriptCapitalD]"` |
 
 Thus the suffix `c` denotes **charge conjugation**, rather than Hermitian conjugation. For fermions, charge conjugation reverses the gauge quantum numbers and flips chirality.
 
@@ -107,13 +104,3 @@ operators[[1]]
 ```
 
 returns the first entry.
-
-The number of derivatives in an entry can, for example, be obtained with
-
-```Mathematica
-Count[operators[[1]], "\[ScriptCapitalD]"]
-```
-
-which returns `4` for the example above.
-
-For the shared topology files, please also cite the associated Zenodo dataset where appropriate.
