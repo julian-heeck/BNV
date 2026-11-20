@@ -1,11 +1,10 @@
-(* Created with the Wolfram Language : www.wolfram.com *)
-{{"D", "D", "uR", "uR", "Q", "L", "L", "L"}, {"D", "D", "uR", "uR", "uR", 
-  "L", "L", "eR"}, {"D", "D", "uR", "Q", "Q", "L", "L", "NR"}, 
- {"D", "D", "dR", "uR", "uR", "L", "L", "NR"}, 
- {"D", "D", "uR", "uR", "Q", "L", "eR", "NR"}, 
- {"D", "D", "uR", "uR", "uR", "eR", "eR", "NR"}, 
- {"D", "D", "Q", "Q", "Q", "L", "NR", "NR"}, {"D", "D", "dR", "uR", "Q", "L", 
-  "NR", "NR"}, {"D", "D", "uR", "Q", "Q", "eR", "NR", "NR"}, 
- {"D", "D", "dR", "uR", "uR", "eR", "NR", "NR"}, 
- {"D", "D", "dR", "Q", "Q", "NR", "NR", "NR"}, 
- {"D", "D", "dR", "dR", "uR", "NR", "NR", "NR"}}
+{{"uR", "uR", "Q", "L", "L", "L", "D", "D"}, {"uR", "uR", "uR", "L", "L", 
+  "eR", "D", "D"}, {"uR", "Q", "Q", "L", "L", "NR", "D", "D"}, 
+ {"dR", "uR", "uR", "L", "L", "NR", "D", "D"}, 
+ {"uR", "uR", "Q", "L", "eR", "NR", "D", "D"}, 
+ {"uR", "uR", "uR", "eR", "eR", "NR", "D", "D"}, 
+ {"Q", "Q", "Q", "L", "NR", "NR", "D", "D"}, {"dR", "uR", "Q", "L", "NR", 
+  "NR", "D", "D"}, {"uR", "Q", "Q", "eR", "NR", "NR", "D", "D"}, 
+ {"dR", "uR", "uR", "eR", "NR", "NR", "D", "D"}, 
+ {"dR", "Q", "Q", "NR", "NR", "NR", "D", "D"}, 
+ {"dR", "dR", "uR", "NR", "NR", "NR", "D", "D"}}

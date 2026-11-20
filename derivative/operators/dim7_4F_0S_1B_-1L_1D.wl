@@ -1,3 +1,2 @@
-(* Created with the Wolfram Language : www.wolfram.com *)
-{{"D", "dR", "dR", "dR", "ec"}, {"D", "dR", "dR", "Q", "Lc"}, 
- {"D", "dR", "Q", "Q", "Nc"}, {"D", "dR", "dR", "uR", "Nc"}}
+{{"dR", "dR", "dR", "ec", "D"}, {"dR", "dR", "Q", "Lc", "D"}, 
+ {"dR", "Q", "Q", "Nc", "D"}, {"dR", "dR", "uR", "Nc", "D"}}

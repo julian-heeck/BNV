@@ -1,11 +1,10 @@
-(* Created with the Wolfram Language : www.wolfram.com *)
-{{"D", "D", "Hc", "dR", "dR", "dR", "Lc", "Lc", "Lc"}, 
- {"D", "D", "Hc", "dR", "dR", "dR", "Lc", "ec", "Nc"}, 
- {"D", "D", "Hc", "dR", "dR", "Q", "Lc", "Lc", "Nc"}, 
- {"D", "D", "Hc", "dR", "dR", "uR", "Lc", "Nc", "Nc"}, 
- {"D", "D", "H", "dR", "dR", "dR", "Lc", "Nc", "Nc"}, 
- {"D", "D", "Hc", "dR", "dR", "Q", "ec", "Nc", "Nc"}, 
- {"D", "D", "Hc", "dR", "Q", "Q", "Lc", "Nc", "Nc"}, 
- {"D", "D", "H", "dR", "dR", "Q", "Nc", "Nc", "Nc"}, 
- {"D", "D", "Hc", "dR", "uR", "Q", "Nc", "Nc", "Nc"}, 
- {"D", "D", "Hc", "Q", "Q", "Q", "Nc", "Nc", "Nc"}}
+{{"Hc", "dR", "dR", "dR", "Lc", "Lc", "Lc", "D", "D"}, 
+ {"Hc", "dR", "dR", "dR", "Lc", "ec", "Nc", "D", "D"}, 
+ {"Hc", "dR", "dR", "Q", "Lc", "Lc", "Nc", "D", "D"}, 
+ {"Hc", "dR", "dR", "uR", "Lc", "Nc", "Nc", "D", "D"}, 
+ {"H", "dR", "dR", "dR", "Lc", "Nc", "Nc", "D", "D"}, 
+ {"Hc", "dR", "dR", "Q", "ec", "Nc", "Nc", "D", "D"}, 
+ {"Hc", "dR", "Q", "Q", "Lc", "Nc", "Nc", "D", "D"}, 
+ {"H", "dR", "dR", "Q", "Nc", "Nc", "Nc", "D", "D"}, 
+ {"Hc", "dR", "uR", "Q", "Nc", "Nc", "Nc", "D", "D"}, 
+ {"Hc", "Q", "Q", "Q", "Nc", "Nc", "Nc", "D", "D"}}

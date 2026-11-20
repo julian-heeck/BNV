@@ -35,8 +35,8 @@ Each `.wl` file contains a Wolfram Language list specifying the field and deriva
 
 ```Mathematica
 {
- {"D", "D", "D", "D", "Hc", "dR", "dR", "Q", "ec"},
- {"D", "D", "D", "D", "Hc", "dR", "Q", "Q", "Lc"},
+ {"Hc", "dR", "dR", "Q", "ec","D", "D", "D", "D"},
+ {"Hc", "dR", "Q", "Q", "Lc","D", "D", "D", "D"},
  ...
 }
 ```
